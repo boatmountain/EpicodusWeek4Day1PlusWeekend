@@ -18,15 +18,15 @@ var epicodusStudent = {
 
 //   To access properties and metods on obj; use either dot notaion or bracket notation
 // dot notation
->myCat.name
-"Kitty Poppins"
->myCat['name']
-// bracket notation
-"Kitty Poppins"
->myCat.speak()
-Meow!
->myCat['speak']()
-Meow!
+// myCat.name
+// "Kitty Poppins"
+// >myCat['name']
+// // bracket notation
+// "Kitty Poppins"
+// >myCat.speak()
+// Meow!
+// >myCat['speak']()
+// Meow!
 
 // Create a dog object
 var dog = {};
@@ -69,14 +69,16 @@ var flower = {}
 
 // Practice new properties
 flower.colors = ["yellow","white", "blue"]
-flower.height = 5ft
+flower.footHeight = 5
 flower.pollinators = ["bee", "butterfly", "humming bird", "scientists"]
 flower.grow = function() { return this.height + 0.08}
 console.log(flower);
-flower.wilt = function () { return this.height - 0.16 + this.colors.splice("pink", "white")}
+flower.wilt = function () {return this.height - 0.16 + this.colors.splice("pink", "white")}
 flower.bud = function () {return this.colors.push("pink")}
 console.log(flower.grow);
 console.log(flower.grow);
+console.log(flower.footHeight);
+
 console.log(flower.bud);
 console.log(flower);
 flower.wilt
